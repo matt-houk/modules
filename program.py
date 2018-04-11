@@ -20,3 +20,22 @@ for i in range(999999990, 1000000000):
 
 for i in range(0, 1000000000):
     print(wordify(i))
+
+# Running the encryption module:
+string = 'Hello World!'
+print(string)
+encrypted = encryptblock(string)
+print(encrypted)
+decrypted = decryptblock(encrypted)
+print(decrypted)
+if decrypted == string:
+    print("The string was properly encrypted and decrypted")
+    
+string = 'Caesarish Cipher'
+print(string)
+encrypted = encryptblock(string)
+print(encrypted)
+decrypted = decryptblock(encrypted)
+print(decrypted)
+if decrypted == string:
+    print("The string was properly encrypted and decrypted")
