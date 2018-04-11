@@ -1,3 +1,20 @@
+###########################################################################
+#   Author:  Adam Cogdell                                                 #
+#      PID:  99S370051                                                    #
+#    Class:  PH412, Spring, 2018                                          #
+#  Helpers:  Documentation                                                #
+#                                                                         #
+#  Program:  int2word module                                              #
+# Due Date:  April 11, 2018                                               #
+#                                                                         #
+# Language:  Python 3.6                                                   #
+#      IDE:  Visual Studio Code                                           #
+#                                                                         #
+#  Purpose:  Convert integers to strings of the numbers                   #
+#                                                                         #
+#   "Bugs":  No major problems                                            #
+###########################################################################
+
 # plus plus
 def pp(x):
     return x+1
