@@ -20,7 +20,7 @@ for i in range(999999990, 1000000000):
 
 
 # Running the encryption module:
-import encryption
+from encryption import encryptblock, decryptblock
 
 string = 'Hello World!'
 print(string)
