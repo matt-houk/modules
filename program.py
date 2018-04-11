@@ -18,8 +18,6 @@ for i in range(110, 122):
 for i in range(999999990, 1000000000):
     print(wordify(i))
 
-for i in range(0, 1000000000):
-    print(wordify(i))
 
 # Running the encryption module:
 string = 'Hello World!'
