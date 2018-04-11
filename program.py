@@ -2,9 +2,9 @@
 
 import pythag
 
-print(pythag.hypotenuse( ))
+print(pythag.hypotenuse(3, 4))
 
-print(pythag.leg( ))
+print(pythag.leg(4, 5))
 
 # int2word module - Adam
 from int2word import wordify
