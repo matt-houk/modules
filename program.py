@@ -20,6 +20,8 @@ for i in range(999999990, 1000000000):
 
 
 # Running the encryption module:
+import encryption
+
 string = 'Hello World!'
 print(string)
 encrypted = encryptblock(string)
