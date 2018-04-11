@@ -1,4 +1,4 @@
-#running the pythag module
+#running the pythag module - chase
 
 import pythag
 
