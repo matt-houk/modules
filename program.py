@@ -39,3 +39,10 @@ decrypted = decryptblock(encrypted)
 print(decrypted)
 if decrypted == string:
     print("The string was properly encrypted and decrypted")
+
+# Running the sequences module - william
+import sequences
+
+print("Partial sum of 1/10**n to 5th element:", sequences.partial_sum(5, 0, "1/10**n"))
+print("5th Fibonacci number:", sequences.fibonacci(5))
+print(sequences.fibonacci_sequence(10))

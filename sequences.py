@@ -1,3 +1,19 @@
+###########################################################################
+#   Author:  William Harrell                                              #
+#      PID:  99S370102                                                    #
+#    Class:  PH412, Spring, 2018                                          #
+#  Helpers:                                                               #
+#                                                                         #
+#  Program:  sequences.py                                                 #
+# Due Date:  April 12, 2018                                               #
+#                                                                         #
+# Language:  Python 3.6                                                   #
+#      IDE:  VS Code                                                      #
+#                                                                         #
+#  Purpose:  Demonstrate some math sequences                              #
+#                                                                         #
+#   "Bugs":  Fibonacci breaks down at around n = 30                       #
+###########################################################################
 def partial_sum(n, i, expression):
     '''return the partial sum of the expression to the nth iteration, with n starting at i'''
     if n == i:
